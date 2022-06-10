@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26019" started-at="2022-06-10T11:19:09 IST" finished-at="2022-06-10T11:19:35 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="26019" started-at="2022-06-10T11:19:09 IST" finished-at="2022-06-10T11:19:35 IST">
+      <class name="com.helpBot.testcases.HelpBotWindowTest">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.helpBot.testcases.HelpBotWindowTest@544a2ea6]" name="loadConfig" is-config="true" duration-ms="5" started-at="2022-06-10T11:19:09 IST" finished-at="2022-06-10T11:19:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="load()[pri:0, instance:com.helpBot.testcases.HelpBotWindowTest@544a2ea6]" name="load" is-config="true" duration-ms="4050" started-at="2022-06-10T11:19:09 IST" finished-at="2022-06-10T11:19:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load -->
+        <test-method status="PASS" signature="feedBackTest()[pri:0, instance:com.helpBot.testcases.HelpBotWindowTest@544a2ea6]" name="feedBackTest" duration-ms="21938" started-at="2022-06-10T11:19:13 IST" finished-at="2022-06-10T11:19:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedBackTest -->
+      </class> <!-- com.helpBot.testcases.HelpBotWindowTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

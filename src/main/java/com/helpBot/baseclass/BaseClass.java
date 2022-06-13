@@ -17,12 +17,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
+import extentReport.ExtentUtility;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass 
 {
 	public static WebDriver driver;
 	public static Properties prop;
+	public static ExtentUtility ut;
 	
 	@BeforeTest
 	public void loadConfig() throws Exception

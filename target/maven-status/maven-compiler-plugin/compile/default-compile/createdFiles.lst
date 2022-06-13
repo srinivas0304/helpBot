@@ -1,0 +1,9 @@
+botPages\LoginPage.class
+botPages\TopicSelect.class
+com\helpBot\baseclass\BaseClass.class
+botPages\TitleVerificationPage.class
+extentReport\ExtentUtility.class
+botPages\ClickonHelpAnContact.class
+botPages\HelpBotWindowPage.class
+botPages\SearchPage.class
+botPages\SigninPage.class

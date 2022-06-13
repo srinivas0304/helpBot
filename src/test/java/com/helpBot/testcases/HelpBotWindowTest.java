@@ -11,6 +11,7 @@ import botPages.SearchPage;
 import botPages.SigninPage;
 import botPages.TitleVerificationPage;
 import botPages.TopicSelect;
+import extentReport.ExtentUtility;
 
 public class HelpBotWindowTest extends BaseClass
 {
@@ -25,6 +26,7 @@ public class HelpBotWindowTest extends BaseClass
 	@Test
 	public void feedBackTest() throws Exception
 	{
+		ExtentUtility.extentUtility();
 		test=new TitleVerificationPage();
 		signinCheck=test.isDisplay();
 		signinCheck.signinBtn();

@@ -2,28 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="28358" started-at="2022-06-13T16:35:36 IST" finished-at="2022-06-13T16:36:04 IST">
+  <suite name="Default suite" duration-ms="28080" started-at="2022-06-14T10:10:53 IST" finished-at="2022-06-14T10:11:21 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="28358" started-at="2022-06-13T16:35:36 IST" finished-at="2022-06-13T16:36:04 IST">
+    <test name="Default test" duration-ms="28080" started-at="2022-06-14T10:10:53 IST" finished-at="2022-06-14T10:11:21 IST">
       <class name="com.helpBot.testcases.HelpBotWindowTest">
-        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.helpBot.testcases.HelpBotWindowTest@eb21112]" name="loadConfig" is-config="true" duration-ms="6" started-at="2022-06-13T16:35:36 IST" finished-at="2022-06-13T16:35:36 IST">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.helpBot.testcases.HelpBotWindowTest@43a0cee9]" name="loadConfig" is-config="true" duration-ms="5" started-at="2022-06-14T10:10:53 IST" finished-at="2022-06-14T10:10:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method status="PASS" signature="load()[pri:0, instance:com.helpBot.testcases.HelpBotWindowTest@eb21112]" name="load" is-config="true" duration-ms="5047" started-at="2022-06-13T16:35:36 IST" finished-at="2022-06-13T16:35:41 IST">
+        <test-method status="PASS" signature="load()[pri:0, instance:com.helpBot.testcases.HelpBotWindowTest@43a0cee9]" name="load" is-config="true" duration-ms="4716" started-at="2022-06-14T10:10:53 IST" finished-at="2022-06-14T10:10:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- load -->
-        <test-method status="PASS" signature="feedBackTest()[pri:0, instance:com.helpBot.testcases.HelpBotWindowTest@eb21112]" name="feedBackTest" duration-ms="22542" started-at="2022-06-13T16:35:41 IST" finished-at="2022-06-13T16:36:03 IST">
+        <test-method status="PASS" signature="feedBackTest()[pri:0, instance:com.helpBot.testcases.HelpBotWindowTest@43a0cee9]" name="feedBackTest" duration-ms="23331" started-at="2022-06-14T10:10:57 IST" finished-at="2022-06-14T10:11:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feedBackTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.helpBot.testcases.HelpBotWindowTest@eb21112]" name="tearDown" is-config="true" duration-ms="732" started-at="2022-06-13T16:36:03 IST" finished-at="2022-06-13T16:36:04 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- com.helpBot.testcases.HelpBotWindowTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

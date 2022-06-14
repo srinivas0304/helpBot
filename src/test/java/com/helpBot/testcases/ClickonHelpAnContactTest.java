@@ -27,8 +27,8 @@ public class ClickonHelpAnContactTest extends BaseClass
 		loginPage.clickOnContinue();
 		loginPage.welcomeMessage();
 		loginPage.typePassword(prop.getProperty("password"));
-		loginPage.clickOnSignBtn();
-		hc=loginPage.clickOnMayBeLater();
+		hc=loginPage.clickOnSignBtn();
+		//hc=loginPage.clickOnMayBeLater();
 		hc.helpAndContact();
 	}
 }

@@ -51,11 +51,11 @@ public class BaseClass
 		launchBrowser();
 	}
 	
-	@AfterMethod
-	public void tearDown()
-	{
-		driver.quit();
-	}
+//	@AfterMethod
+//	public void tearDown()
+//	{
+//		driver.quit();
+//	}
 	
 //	@Parameters("browser")
 	public void launchBrowser()

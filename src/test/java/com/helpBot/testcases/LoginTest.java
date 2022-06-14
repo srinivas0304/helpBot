@@ -26,6 +26,6 @@ public class LoginTest extends BaseClass
 		loginPage.welcomeMessage();
 		loginPage.typePassword(prop.getProperty("password"));
 		loginPage.clickOnSignBtn();
-		loginPage.clickOnMayBeLater();
+		//loginPage.clickOnMayBeLater();
 	}
 }

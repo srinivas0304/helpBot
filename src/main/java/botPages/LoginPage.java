@@ -47,20 +47,21 @@ public class LoginPage extends BaseClass
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(password));
 		driver.findElement(password).sendKeys(pass);
 	}
-	public void clickOnSignBtn() throws Exception
+	public ClickonHelpAnContact clickOnSignBtn() throws Exception
 	{
 		WebDriverWait wait=new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(signinBtn));
 		driver.findElement(signinBtn).click();
 		driver.getCurrentUrl();
 		driver.navigate().refresh();
-	}
-	
-	public ClickonHelpAnContact clickOnMayBeLater()
-	{
-		WebDriverWait wait=new WebDriverWait(driver, 10);
-		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(mayBeLater));
-		driver.findElement(mayBeLater).click();
 		return new ClickonHelpAnContact();
 	}
+	
+//	public ClickonHelpAnContact clickOnMayBeLater()
+//	{
+//		WebDriverWait wait=new WebDriverWait(driver, 10);
+//		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(mayBeLater));
+//		driver.findElement(mayBeLater).click();
+//		return new ClickonHelpAnContact();
+//	}
 }

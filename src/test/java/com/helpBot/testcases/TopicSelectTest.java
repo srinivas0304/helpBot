@@ -31,8 +31,8 @@ public class TopicSelectTest extends BaseClass
 		loginPage.clickOnContinue();
 		loginPage.welcomeMessage();
 		loginPage.typePassword(prop.getProperty("password"));
-		loginPage.clickOnSignBtn();
-		hc=loginPage.clickOnMayBeLater();
+		hc=loginPage.clickOnSignBtn();
+		//hc=loginPage.clickOnMayBeLater();
 		searchpage=hc.helpAndContact();
 		searchpage.clickOnIt();
 		ts=searchpage.typeTopic(prop.getProperty("topicId"));

@@ -26,7 +26,6 @@ public class HelpBotWindowTest extends BaseClass
 	@Test
 	public void feedBackTest() throws Exception
 	{
-		ExtentUtility.extentUtility();
 		test=new TitleVerificationPage();
 		signinCheck=test.isDisplay();
 		signinCheck.signinBtn();
@@ -35,8 +34,8 @@ public class HelpBotWindowTest extends BaseClass
 		loginPage.clickOnContinue();
 		loginPage.welcomeMessage();
 		loginPage.typePassword(prop.getProperty("password"));
-		loginPage.clickOnSignBtn();
-		hc=loginPage.clickOnMayBeLater();
+		hc=loginPage.clickOnSignBtn();
+		//hc=loginPage.clickOnMayBeLater();
 		searchpage=hc.helpAndContact();
 		searchpage.clickOnIt();
 		topicSelect=searchpage.typeTopic(prop.getProperty("topicId"));
